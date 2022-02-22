@@ -1,0 +1,15 @@
+.Footer {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+
+  &__giphy-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+  }
+
+  &__giphy-logo {
+    margin-left: 4px;
+  }
+}

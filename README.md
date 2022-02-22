@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# giphynor
+
+GIF searchbox that uses Giphy API.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How to run
+
+1. Download the project
+2. Create an `.env` file in the project directory with your Giphy API key, like this:
+
+```
+REACT_APP_GIPHY_API_KEY=Y0URK3YH3R3
+```
+
+3. Install and run the project:
+
+```
+npm install && npm start
+```
 
 ## Available Scripts
 
@@ -14,9 +31,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### `cy:open`
+
+Launches Cypress where you can select which e2e tests you want to run.
+
+### `cy:run`
+
+Runs all the e2e test in the headless mode.
+
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the jest test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
