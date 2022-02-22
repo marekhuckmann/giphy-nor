@@ -19,6 +19,8 @@ REACT_APP_GIPHY_API_KEY=Y0URK3YH3R3
 npm install && npm start
 ```
 
+4. Open [http://localhost:3000](http://localhost:3000)
+
 ## Available Scripts
 
 In the project directory, you can run:
